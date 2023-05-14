@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Serif+JP&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.titulo {
+    font-family: 'Fjalla One', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-family: 'Noto Serif JP', serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+fieldset {
+    border-radius: 15px;
+    border: outset 30px 30px 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 2em;
+    height: 150px;
+    text-align: center;
+}
+
+#txt2{
+    margin-left: 40px;
+}
+
+#txt3{
+    margin-left: -1px;
+}
+
+#txt4{
+    margin-left: 41px;
+}
+
+#nome{
+    margin-top: 14px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    height: 20px;
+}
+
+#sobrenome{
+    margin-top: 15px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    height: 20px;
+}
+
+#email{
+    margin-top: 15px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    height: 20px;
+}
+
+#datadenascimento{
+    margin-top: 12px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    height: 20px;
+}
+
+.notificacoes-titulo {
+    margin-top: 20px;
+}
+
+.campo-botao {
+   gap: 5px;
+}
+
+body {
+    background: linear-gradient(180deg, #b0e0e6 0%, #ff8ad2 100%);
+    font-family: 'Noto Serif JP', serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+#text6{
+    margin-left: -68px;
+}
+
+#text7{
+    margin-left: -40px;
+}
+
+#text8{
+    margin-left: -55px;
+}
+
+#text9{
+    margin-left: -35px;
+}
+
+#text10{
+    margin-left: -55px;
+}
+
+#text11{
+    margin-left: -34px;
+}
+
+#text12{
+    margin-left: 16px;
+}
+
+.campo{
+    margin-bottom: 1em;
+    margin-top: 20px;
+    margin-left: 10px; 
+    margin-right: 20px;
+    text-align: center;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #000000;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+    margin-left: 10px;
+}
+
+#l1{
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+#l2{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#l3{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.campo input[type="text"], .campo imput[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px ;
+    display:block;
+}
+
+textarea{
+    margin-left: 38em;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+select{
+    margin-top: 15px;
+    margin-left: 48em;
+}
+
+.campo imput:focus, .campo select:focus, .campo textarea:focus{
+    background: #ffffff;
+}
+
+.botao{
+    font-family: 'Noto Serif JP', serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    background: #ffffff;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em;
+    box-shadow: 2px 2px 2px;
+    text-shadow: 1px 1px 1px;
+    position: static right;
+    margin-top: 60px;
+    margin-left: 99px;   
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: #c28591;
+    box-shadow: inset 2px 2px 2px;
+    text-shadow: none;
+}
